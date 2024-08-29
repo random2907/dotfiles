@@ -1,4 +1,5 @@
 #!/bin/sh
+
 if [ -z "$1" ]; then
 BG="$(find $wallpaper_path | shuf -n 1)"
 else

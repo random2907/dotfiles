@@ -6,4 +6,12 @@ import = ["$HOME/.config/alacritty/alacritty.toml",
 program = "/usr/bin/zsh"
 
 [window]
-opacity = 0.8
+opacity = 0.9
+
+[font]
+
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
+size = 11.25
