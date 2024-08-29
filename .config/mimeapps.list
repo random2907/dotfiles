@@ -1,0 +1,6 @@
+[Added Associations]
+image/jpeg=swappy.desktop;firefox.desktop;
+
+[Default Applications]
+image/jpeg=swappy.desktop;
+x-scheme-handler/postman=Postman.desktop
