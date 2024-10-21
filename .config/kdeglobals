@@ -117,19 +117,14 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [General]
-BrowserApplication=angelfish
 ColorScheme=CatppuccinMochaPink
 Name=Catppuccin Mocha Pink
-TerminalApplication=alacritty
 accentActiveTitlebar=false
 shadeSortColumn=true
 
 [KDE]
-LookAndFeelPackage=org.kde.breeze.mobile
 contrast=4
-
-[PreviewSettings]
-MaximumRemoteSize=0
+widgetStyle=kvantum
 
 [WM]
 activeBackground=30, 30, 46
