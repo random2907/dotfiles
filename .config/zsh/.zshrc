@@ -1,8 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export PATH="$HOME/development/flutter/bin:$PATH"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 # Path to your Oh My Zsh installation.
 export ZSH="$XDG_DATA_HOME/ohmyzsh"
+DISABLE_MAGIC_FUNCTIONS=true
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -103,12 +105,16 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export ANDROID_USER_HOME="$XDG_DATA_HOME"/android
-alias adb='HOME="$XDG_DATA_HOME"/android adb'
+export GOPATH="$XDG_DATA_HOME"/go
 export ANDROID_HOME="$XDG_DATA_HOME"/android/sdk
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export EDITOR='nvim'
+export CHROME_EXECUTABLE=/usr/bin/firefox
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
 alias v='nvim'
+alias adb='HOME="$XDG_DATA_HOME"/android adb'
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"

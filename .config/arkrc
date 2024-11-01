@@ -1,0 +1,11 @@
+[ExtractDialog]
+1280x720 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Games/
+
+[General]
+LockSidebar=false
+ShowSidebar=false
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled

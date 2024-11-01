@@ -134,7 +134,6 @@ tooltip {
 }
 
 #pulseaudio.muted {
-	background: transparent;
 	border-radius: 8px;
 	margin-left: 0px;
 }
