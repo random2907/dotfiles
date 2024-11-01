@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/env bash
 
 if [ -z "$1" ]; then
-BG="$(find $wallpaper_path | shuf -n 1)"
+        BG="$(find $wallpaper_path | shuf -n 1)"
 else
 	BG="$1"
 fi

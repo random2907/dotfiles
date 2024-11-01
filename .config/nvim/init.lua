@@ -54,11 +54,10 @@ require'nvim-treesitter.configs'.setup {
 		additional_vim_regex_highlighting = false,
 	},
 }
-
+require'lspconfig'.qmlls.setup{
+        cmd = {"qmlls6"},
+}
 require("mason").setup()
-require("mason-lspconfig").setup({
-	ensure_installed = { "tsserver" },
-})
 require("mason-lspconfig").setup_handlers {
 	function (server_name)
 		require("lspconfig")[server_name].setup {}
@@ -77,6 +76,7 @@ require("mason-lspconfig").setup_handlers {
 	end,
 }
 
+require("flutter-tools").setup {}
 
 local cmp = require'cmp'
 cmp.setup({

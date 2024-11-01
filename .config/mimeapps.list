@@ -1,6 +1,17 @@
 [Added Associations]
+application/pdf=firefox.desktop;org.libreoffice.LibreOffice.draw.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.libreoffice.LibreOffice.writer.desktop;
 image/jpeg=swappy.desktop;firefox.desktop;
+image/png=swappy.desktop;org.gnome.Shotwell-Viewer.desktop;firefox.desktop;
 
 [Default Applications]
+application/pdf=firefox.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.libreoffice.LibreOffice.writer.desktop;
 image/jpeg=swappy.desktop;
+image/png=swappy.desktop;
+x-scheme-handler/http=re.sonny.Junction.desktop
+x-scheme-handler/https=re.sonny.Junction.desktop
 x-scheme-handler/postman=Postman.desktop
+
+[Removed Associations]
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.prismlauncher.PrismLauncher.desktop;

@@ -1,8 +1,10 @@
+[general]
+
 import = ["$HOME/.config/alacritty/alacritty.toml",
 "~/.cache/wal/colors-alacritty.toml"
 ]
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/zsh"
 
 [window]
@@ -15,3 +17,7 @@ bold = { family = "JetBrains Mono", style = "Bold" }
 italic = { family = "JetBrains Mono", style = "Italic" }
 bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
 size = 11.25
+
+# [cursor]
+# style="Beam"
+
