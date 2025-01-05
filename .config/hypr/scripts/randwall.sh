@@ -14,9 +14,8 @@ PROGRAM="swww-daemon"
 # Check if the program is running
 if pgrep "$PROGRAM" >/dev/null; then
 	swww img "$BG" --transition-type "$trans_type" --transition-step 10
-	wal -i "$BG" -n -s
+        matugen image "$BG"
 	killall dunst
-	killall -USR2 cava
 else
 	swww-daemon &
 fi
