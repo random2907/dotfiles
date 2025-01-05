@@ -1,0 +1,57 @@
+[colors.bright]
+black = '{{colors.outline.default.hex}}' 
+blue = '#89B4FA' 
+cyan = '#94E2D5' 
+green = '#A6E3A1' 
+magenta = '#F5C2E7' 
+red = '#F38BA8' 
+white = '#A6ADC8' 
+yellow = '#F9E2AF' 
+ 
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.dim]
+black = '#45475A' 
+blue = '#89B4FA' 
+cyan = '#94E2D5' 
+green = '#A6E3A1' 
+magenta = '#F5C2E7' 
+red = '#F38BA8' 
+white = '#BAC2DE' 
+yellow = '#F9E2AF' 
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.normal]
+black = '#181818' 
+blue = '{{colors.primary.default.hex}}' 
+cyan = '{{colors.secondary.default.hex}}' 
+green = '{{colors.primary.default.hex}}' 
+magenta = '{{colors.tertiary.default.hex}}' 
+red = '{{colors.error.default.hex}}' 
+white = '#BAC2DE' 
+yellow = '{{colors.inverse_primary.default.hex}}' 
+
+[colors.primary]
+background = '{{colors.background.default.hex}}'
+foreground = '{{colors.on_surface.default.hex}}'
+ 
+[colors.search.focused_match]
+background= "CellForeground"
+foreground = "CellBackground"
+ 
+[colors.search.matches]
+background = "CellForeground"
+foreground = "CellBackground"
+
+[colors.selection]
+background = "CellForeground"
+text = "CellBackground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"

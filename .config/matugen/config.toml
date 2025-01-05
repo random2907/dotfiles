@@ -1,0 +1,13 @@
+[config]
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi-colors.rasi'
+output_path = '~/.config/rofi/rofi-colors.rasi'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/colors-hyprland.conf'
+output_path = '~/.config/hypr/colors-hyprland.conf'
+
+[templates.alacritty]
+input_path = '~/.config/matugen/templates/colors-alacritty.toml'
+output_path = '~/.config/alacritty/colors-alacritty.toml'
