@@ -1,0 +1,8 @@
+* {
+    active-background: #723523;
+    active-foreground: #ffb5a0;
+    normal-background: #2c150f;
+    normal-foreground: #ffb5a0;
+    urgent-background: #2c150f;
+    urgent-foreground: #ffb5a0;
+}
