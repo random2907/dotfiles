@@ -1,7 +1,7 @@
 [general]
 
 import = ["$HOME/.config/alacritty/alacritty.toml",
-"~/.cache/wal/colors-alacritty.toml"
+"~/.config/alacritty/colors-alacritty.toml"
 ]
 
 [terminal.shell]
