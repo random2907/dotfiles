@@ -1,4 +1,4 @@
-@import "/home/ranjeet/.cache/wal/config-rofi.rasi"
+@import "rofi-colors.rasi"
 
 * {
   /* Default background color */
