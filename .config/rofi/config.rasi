@@ -1,4 +1,4 @@
-@import "/home/ranjeet/.cache/wal/config-rofi.rasi"
+@import "rofi-colors.rasi"
 
 * {
   /* Default background color */
@@ -10,6 +10,7 @@
 configuration {
   me-select-entry: "MousePrimary";
   me-accept-entry: "!MousePrimary";
+
 }
 
 
