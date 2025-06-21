@@ -1,8 +1,8 @@
 * {
-    active-background: {{colors.on_primary_fixed_variant.default.hex}};
-    active-foreground: {{colors.primary.default.hex}};
-    normal-background: {{colors.on_secondary_fixed.default.hex}};
-    normal-foreground: {{colors.primary.default.hex}};
-    urgent-background: {{colors.on_secondary_fixed.default.hex}};
-    urgent-foreground: {{colors.primary.default.hex}};
+        active-background: {{colors.on_primary_fixed_variant.default.hex}};
+        active-foreground: {{colors.primary.default.hex}};
+        normal-background: {{colors.on_secondary_fixed.default.hex}};
+        normal-foreground: {{colors.primary.default.hex}};
+        urgent-background: {{colors.on_secondary_fixed.default.hex}};
+        urgent-foreground: {{colors.primary.default.hex}};
 }
