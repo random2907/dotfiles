@@ -1,9 +1,3 @@
-# Hypr Ranjeet
-
-Hypr Ranjeet is a dotfiles/config for hyprland
-
-
-
 ## Installation
 
 ### AUR Helper
